@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Práctica HTML - Etiquetas básicas</title>
+</head>
+<body>
+
+  <h1>Práctica de etiquetas HTML básicas</h1>
+  <hr>
+
+  <p>En este documento aprenderás a usar las principales etiquetas de <abbr title="HyperText Markup Language">HTML</abbr> que se utilizan para estructurar contenido.  
+  Observa los ejemplos e intenta replicarlos.</p>
+
+  <h2>Formato de texto</h2>
+  <p>Podemos usar <strong>negrita semántica</strong> o simplemente <b>negrita visual</b>.  
+  También se puede escribir en <em>cursiva semántica</em> o <i>cursiva visual</i>.  
+  <u>Este texto está subrayado</u>, y <small>este es más pequeño</small>.  
+  <mark>Este fragmento está resaltado</mark>.</p>
+
+  <h3>Citas y fragmentos</h3>
+  <p>Como dijo Tim Berners-Lee: <q>La web es para todos</q>.</p>
+  <blockquote>
+    La accesibilidad y la semántica son fundamentales para una web mejor.
+  </blockquote>
+  <p>El código HTML se escribe entre etiquetas como <code>&lt;html&gt;</code> y <code>&lt;/html&gt;</code>.</p>
+
+  <h2>Listas</h2>
+
+  <h3>Lista no ordenada</h3>
+  <ul>
+    <li>Manzana</li>
+    <li>Plátano</li>
+    <li>Naranja</li>
+  </ul>
+
+  <h3>Lista ordenada</h3>
+  <ol>
+    <li>Encender el ordenador</li>
+    <li>Abrir el editor</li>
+    <li>Escribir el código</li>
+    <li>Guardar y probar</li>
+  </ol>
+
+  <h3>Lista de definiciones</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Lenguaje de marcado para crear páginas web.</dd>
+    <dt>Etiqueta</dt>
+    <dd>Elemento que da estructura o significado al contenido.</dd>
+  </dl>
+
+  <h2>Imágenes y multimedia</h2>
+  <figure>
+    <img src="https://www.w3.org/Icons/w3c_home" alt="Logotipo de HTML5">
+    <figcaption>Figura 1.</figcaption>
+  </figure>
+
+  <p>También se pueden incluir archivos de sonido o vídeo:</p>
+
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento <code>audio</code>.
+  </audio>
+
+  <br>
+
+  <video width="300" controls>
+    <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento <code>video</code>.
+  </video>
+
+  <h2>Tablas</h2>
+  <table border="1">
+    <caption>Ejemplo de tabla básica</caption>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ana</td>
+        <td>22</td>
+        <td>Murcia</td>
+      </tr>
+      <tr>
+        <td>Luis</td>
+        <td>24</td>
+        <td>Cartagena</td>
+      </tr>
+      <tr>
+        <td>María</td>
+        <td>20</td>
+        <td>Lorca</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Datos ficticios solo para práctica</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <br><hr>
+  <p><small>© 2025 · Práctica educativa de HTML</small></p>
+
+</body>
+</html>
+
+
